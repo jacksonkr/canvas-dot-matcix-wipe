@@ -2,7 +2,7 @@
 <script src="dot-matrix-wipe.js"></script>
 <script>
 	document.addEventListener("DOMContentLoaded", function(event) { 
-		var dmw = new DotMatrixWipe(document.getElementById("colorful"));
+		var dmw = new DotMatrixWipe(document.getElementById("test"));
 		dmw.play(1000);
 	});
 </script>
@@ -13,8 +13,15 @@
 		background: url("colorful.jpg") 50% 50%;
 		background-size: cover;
 	}
+	#test {
+		margin: 100px 100px;
+		width: 400px;
+		height: 200px;
+	}
 </style>
 <body>
+
+	<div id="test"></div>
 
 </body>
 </html>
